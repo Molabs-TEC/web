@@ -52,7 +52,7 @@ mongoose
     `mongodb+srv://admin:admin@molabs.efc18.mongodb.net/molabs?retryWrites=true&w=majority`
   )
   .then(() => {
-    app.listen(5000);
+    app.listen(4000);
   })
   .catch(err => {
     console.log(err);
