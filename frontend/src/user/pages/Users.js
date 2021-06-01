@@ -13,7 +13,7 @@ const Users = () => {
     const fetchUsers = async () => {
       try {
         const responseData = await sendRequest(
-          'http://localhost:4000/api/users'
+          'http://api.molabstec.xyz/api/users'
         );
 
         setLoadedUsers(responseData.users);

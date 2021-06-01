@@ -16,7 +16,7 @@ const UserPlaces = () => {
     const fetchPlaces = async () => {
       try {
         const responseData = await sendRequest(
-          `http://localhost:4000/api/places/user/${userId}`
+          `http://api.molabstec.xyz/api/places/user/${userId}`
         );
         setLoadedPlaces(responseData.places);
       } catch (err) {}
